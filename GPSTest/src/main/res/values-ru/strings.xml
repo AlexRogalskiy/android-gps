@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2008-2018 The Android Open Source Project, Sean J. Barbeau
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     https://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <!-- Fragments -->
+    <string name="gps_status_title">Состояние</string>
+    <string name="gps_map_title">Карта</string>
+    <string name="gps_sky_title">Небосвод</string>
+    <string name="gps_accuracy_title">Точность</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navdrawer_separator_assist_data">Изменить вспом. сведения</string>
+    <string name="force_psds_injection">Внести PSDS данные</string>
+    <string name="force_time_injection">Внести время</string>
+    <string name="delete_aiding_data">Очистить всп. св.</string>
+    <string name="navdrawer_item_settings">Настройки</string>
+    <string name="navdrawer_item_help">Помощь</string>
+    <string name="navdrawer_item_send_feedback">Оставить отзыв</string>
+    <string name="navdrawer_item_open_source">Мы на GitHub</string>
+
+    <string name="navigation_drawer_open">Открыть навигационный редактор</string>
+    <string name="navigation_drawer_close">Закрыть навигационный редактор</string>
+
+    <!-- GPS functionality -->
+    <string name="gps_start">Пуск</string>
+    <string name="gps_pause">Приостановить</string>
+
+    <string name="delete_aiding_data_success">Успешно удалены вспомогательные сведения.</string>
+    <string name="delete_aiding_data_failure">Устройство не поддерживает удаление вспомогательных сведений.
+    </string>
+    <string name="gps_switch">Вкл/Выкл</string>
+    <string name="share">Поделиться</string>
+    <string name="copied_to_clipboard">Местоположение скопировано</string>
+    <string name="send_log">Отправить логи...</string>
+    <string name="log_instructions">Включить логирование для NMEA, сырые измерения, сообщения навигации и т. д. в Настройках</string>
+    <string name="log_error">С журналированием что-то не так. Разрешили ли вы доступ к файлохранилищу? Попробуйте снова включить журналирование в настройках и нажмите \"Разрешить\" при запросе доступа.</string>
+    <string name="no_location">Попробовать поделиться месторасположением после GNSS фиксации</string>
+    <string name="include_altitude">Включать высоту над уровнем моря</string>
+    <string name="set_fix_frequency">Установить частоту фиксации</string>
+    <string name="force_time_injection_success">Успешно внесены сведения о времени.</string>
+    <string name="force_time_injection_failure">Устройство не поддерживает внесение сведений о времени.
+    </string>
+
+    <string name="force_psds_injection_success">PSDS данные внесены успешно.</string>
+    <string name="force_psds_injection_failure">Устройство не поддерживает PSDS данные.</string>
+
+    <string name="zoom_in">Приблизить</string>
+    <string name="zoom_out">Отдалить</string>
+    <string name="mode_map">Карта</string>
+    <string name="mode_satellite">Спутник</string>
+
+    <string name="gps_latitude_label">Шир.:</string>
+    <string name="gps_longitude_label">Долг.:</string>
+    <string name="gps_fix_time_label">Время:</string>
+    <string name="gps_ttff_label">TTFF:</string>
+    <string name="gps_altitude_label">Выс.:</string>
+    <string name="gps_altitude_msl_label">В.(НУМ):</string>
+    <string name="gps_accuracy_label">Погр.:</string>
+    <string name="gps_hor_and_vert_accuracy_label">Г/В П.:</string>
+    <string name="gps_speed_label">Скор.:</string>
+    <string name="gps_speed_acc_label">П. Ск.:</string>
+    <string name="gps_bearing_label">Пеленг:</string>
+    <string name="gps_bearing_acc_label">Погр. П.:</string>
+    <string name="gps_num_sats_label"># Сп:</string>
+    <string name="pdop_label">Сн. т.:</string>
+    <string name="hvdop_label">Г/В сн.т.:</string>
+
+    <string name="gps_prn_column_label">Об.</string>
+    <string name="gnss_flag_image_label">ССН</string>
+    <string name="sbas_flag_image_label">ССДК</string>
+    <string name="gps_carrier_column_label">НЧ</string>
+    <string name="gps_snr_column_label">ОСШ</string>
+    <string name="gps_cn0_column_label">ОНПШ</string>
+    <string name="gps_avg_cn0_label">Ср.</string>
+    <string name="gps_elevation_column_label">Выс.</string>
+    <string name="gps_azimuth_column_label">Аз.</string>
+    <string name="gps_flags_column_label">Отм.</string>
+    <string name="gps_not_supported">Проверьте системные настройки - возможно устройство не поддерживает ССН/GPS.</string>
+    <string name="install">Установить</string>
+    <string name="no_thanks">Спасибо, не надо</string>
+    <string name="please_install_google_maps">Для работы Карт требуется Google Maps</string>
+    <string name="enable_gps_message">GPS/GNSS отключен.
+Включить?</string>
+    <string name="enable_gps_positive_button">Включить GPS/GNSS</string>
+    <string name="enable_gps_negative_button">Нет</string>
+    <string name="gps_set_location_listener">Запущена GNSS с интервалом = %1$sс, мин. расст. = %2$sм
+    </string>
+    <string name="clear_assist_warning_title">Удалить всп. сведения?</string>
+    <string name="clear_assist_warning">Некоторым устройствам может потребоваться 24 часа чтобы автоматически обновить вспомогательную информацию. Если ваше устройство не поддерживает ручное внесение данных, GNSS может перестать работать во всех приложениях до завершения автоматического обновления данных. Удалить вспомогательную информацию?</string>
+    <string name="never_ask_again">Больше не спрашивать</string>
+    <string name="qr_code_instructions_title">Сканировать QR код</string>
+    <string name="qr_code_instructions_text">Внести текущее местоположение QR кодом в формате Geo URI (geo:28.38434,-87.24334). Создать собственный QR код через https://zxing.appspot.com/generator/</string>
+    <string name="qr_code_cannot_read_code">Не удалось прочитать Geo URI из QR кода</string>
+    <string name="never_show_again">Больше не показывать</string>
+    <string name="not_now">Не сейчас</string>
+    <string name="yes">ДА</string>
+    <string name="no">НЕТ</string>
+    <string name="gnss_not_available">Недоступны спутники спутниковой системы навигации (ССН)</string>
+    <string name="sbas_not_available">Недоступны спутники спутниковой системы дифференциальной коррекции (ССДК)</string>
+    <string name="menu_option_sort_by">Сортировать по</string>
+    <string name="menu_option_filter">Фильтр</string>
+    <string name="filter_dialog_title">Показывать только эти ССН</string>
+    <string name="filter_text">Показаны %1$d из %2$d спутников</string>
+    <string name="filter_showall">(показать все)</string>
+    <string name="error_time_title">GNSS время неверно</string>
+    <string name="error_time_message">GNSS время на устройстве:\n\n%1$s\n\n…отличается более чем на %2$d дней от системных часов. Проблема может быть вызвана сбросом недель в GPS - обратитесь к производителю вашего устройства. См. http://bit.ly/gps-week-rollover для получения дополнительной информации.</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- Map view -->
+    <string name="ground_truth_latitude">Ваша широта</string>
+    <string name="ground_truth_longitude">Ваша долгота</string>
+    <string name="ground_truth_altitude">Ваша высота по WGS84 (Необязательно)</string>
+    <string name="set_ground_truth_title">Включить оценку точности</string>
+    <string name="set_ground_truth_subtitle">Нажмите на карте или внесите ваши координаты</string>
+    <string name="save">Сохранить</string>
+    <string name="edit">Редактировать</string>
+    <string name="ground_truth_marker_title">Ваше настоящее местоположение</string>
+    <string name="ground_truth_invalid_location_title">Неверное местоположение</string>
+    <string name="ground_truth_invalid_lat">Широта должна быть указана в десятичных градусах от -90 до 90</string>
+    <string name="ground_truth_invalid_long">Долгота должна быть указана в десятичных градусах от -180 and 180</string>
+    <string name="ground_truth_invalid_alt">Высота должна быть указана в метрах по WGS84</string>
+
+    <string name="horizontal_error_title">Горизонтальная погрешность</string>
+    <string name="vertical_error_title">Вертикальная погрешность</string>
+    <string name="horizontal_error_label">Погрешность</string>
+    <string name="measured_error_graph_label">Измеренная погрешность</string>
+    <string name="estimated_accuracy_graph_label">Оценка погрешности устройством</string>
+    <string name="horizontal_vertical_error_label">Г/В погрешность</string>
+    <string name="avg_error_label">ср. %1$d опред.</string>
+    <string name="fix_number">Опред. #</string>
+    <string name="show_radar_valid_location">Текущее местоположение внесено!</string>
+    <string name="show_radar_invalid_location">Внесённое текущее местоположение некорректно</string>
+
+    <!-- Sky view -->
+    <string name="sky_legend_title">Условные обозначения</string>
+    <string name="sky_legend_shape_gnss_title">Спутниковые системы навигации (ССН)</string>
+    <string name="sky_legend_shape_navstar">NAVSTAR GPS (США)</string>
+    <string name="sky_legend_shape_glonass">ГЛОНАСС (Россия)</string>
+    <string name="sky_legend_shape_galileo">Галилео (Европейский союз)</string>
+    <string name="sky_legend_shape_qzss">QZSS (Япония)</string>
+    <string name="sky_legend_shape_beidou">Бэйдоу/COMPASS (Китай)</string>
+    <string name="sky_legend_shape_irnss">IRNSS/NavIC (Индия)</string>
+
+    <string name="sky_legend_shape_sbas_title">Спутниковые системы дифференциальной коррекции (ССДК)</string>
+    <string name="sky_legend_shape_waas">WAAS (США)</string>
+    <string name="sky_legend_shape_egnos">EGNOS (Европейский союз)</string>
+    <string name="sky_legend_shape_gagan">GAGAN (Индия)</string>
+    <string name="sky_legend_shape_msas">MSAS (Япония)</string>
+    <string name="sky_legend_shape_sdcm">СДКМ (Россия)</string>
+    <string name="sky_legend_shape_snas">BDSBAS/SNAS (Китай)</string>
+    <string name="sky_legend_shape_saccsa">SACCSA (ИКАО)</string>
+
+    <string name="sky_legend_shape_availability_title">Доступность сигнала</string>
+    <string name="sky_legend_shape_not_in_view">Вне поля видимости устройства</string>
+    <string name="sky_legend_shape_in_view">В поле видимости</string>
+    <string name="sky_legend_shape_used_in_fix">Используется в определении</string>
+
+    <!-- GNSS Status callbacks -->
+    <string name="gnss_nav_msg_status_loc_disabled">Поставщик ССН или Определение местоположения отключено, нет возможности работать без включения.</string>
+    <string name="gnss_nav_msg_status_not_supported">Устройство не поддерживает отслеживание навигационных сообщений ССН</string>
+    <string name="gnss_nav_msg_status_ready">Навигационные сообщения ССН успешно отслеживаются</string>
+
+    <string name="gnss_measurement_status_loc_disabled">Поставщик ССН или Определение местоположения отключено, нет возможности работать без включения.</string>
+    <string name="gnss_measurement_status_not_supported">Устройство не поддерживает отслеживание замеров ССН</string>
+    <string name="gnss_measurement_status_ready">Замеры ССН успешно отслеживаются</string>
+
+    <string name="gnss_status_unknown">Неизвестный ответ состояния</string>
+
+    <!-- Permissions -->
+    <string name="title_location_permission">Необходим доступ для определения местоположения</string>
+    <string name="text_location_permission">GPSTest требуется доступ к данным ССН для определенния местоположения. Если вы выбрали \"Не спрашивать снова\" вам потребуется переустановить приложение или изменить права в настройках системы чтобы предоставить доступ приложению к данным ССН.</string>
+    <string name="ok">Хорошо</string>
+    <string name="exit">Нет, не сейчас</string>
+
+    <!-- Send feedback -->
+    <string name="feedback_subject">GPSTest: Feedback</string>
+    <string name="feedback_body">Отзывы и сообщения об ошибках приветствуются!\n\n\n</string>
+    <string name="feedback_error">Невозможно отправить отзыв: на устройстве на найдено подходящее для этого приложение.
+    </string>
+
+    <!-- What's New -->
+    <string name="main_help_whatsnew_title">Что нового?</string>
+    <string name="main_help_close">Закрыть</string>
+
+    <!-- Preferences -->
+    <string name="pref_title">Настройки</string>
+    <string name="pref_map_category_title">Карта</string>
+    <string name="pref_map_type_title">Вид карты</string>
+    <string name="pref_map_type_summary">Установка вида показываемой карты</string>
+    <string name="pref_map_type_dialog_title">Выбрать вид карты</string>
+
+    <string name="pref_rotate_map_with_compass_title">Вращать карту с компасом</string>
+    <string name="pref_rotate_map_with_compass_summary">Вращать карту в соответствии с направлением компаса
+    </string>
+
+    <string name="pref_tilt_map_with_sensors_title">Вращать карту с устройством</string>
+    <string name="pref_tilt_map_with_sensors_summary">Вид карты от первого зрителя
+    </string>
+
+    <string name="pref_gps_category_title">ССН</string>
+    <string name="pref_auto_start_gps_title">Автозапуск ССН</string>
+    <string name="pref_auto_start_gps_summary">Запускать Спутниковую Систему Навигации с запуском приложения</string>
+
+    <string name="pref_gps_min_time_title">Интервал</string>
+    <string name="pref_gps_min_time_summary">Время между фиксацией координат, в секундах</string>
+    <string name="pref_gps_min_time_dialog_title">Введите интервал, в секундах</string>
+    <string name="pref_gps_min_time_invalid_entry">Это должно быть число</string>
+
+    <string name="pref_use_gnss_apis_title">Использовать ССН API</string>
+    <string name="pref_use_gnss_apis_summary">Доступно на Android 7.0 и выше. Если не выбрано,
+        будет использоваться прежний GPSStatus.Listener.
+    </string>
+
+    <string name="pref_gps_min_distance_title">Мин. расстояние</string>
+    <string name="pref_gps_min_distance_summary">Минимальное расстояние между фиксацией координат, в метрах
+    </string>
+    <string name="pref_gps_min_distance_dialog_title">Введите минимальное расстояние, в метрах</string>
+    <string name="pref_gps_min_distance_invalid_entry">Мин. расстояние должно быть числом</string>
+
+    <string name="pref_stop_gnss_in_background_title">Отключать навигацию в фоне</string>
+    <string name="pref_stop_gnss_in_background_summary">Если отмечено, приложение, перейдя в фоновый режим, отключит навигацию (например, если вы нажали кнопку Домой или перешли в другое приложение)
+    </string>
+
+    <string name="pref_display_category_title">Отображение</string>
+    <string name="pref_keep_screen_on_title">Держать экран включенным</string>
+    <string name="pref_keep_screen_on_summary">Предотвращать отключение экрана</string>
+    <string name="pref_true_north_title">Направить компас на географический север</string>
+    <string name="pref_true_north_summary">Компас будет указывать на географический север, вместо магнитного
+    </string>
+
+    <!-- Output category -->
+    <string name="pref_output_category_title">Журналирование и Вывод</string>
+    <string name="pref_output_category_summary">Записывать NMEA, исходные измерения или навигационные сообщения в файлы или Android Studio</string>
+
+    <!-- Android Monitor Output -->
+    <string name="pref_as_output_category_title">Вывод в Android Monitor</string>
+    <string name="pref_nmea_output_title">NMEA</string>
+    <string name="pref_as_nmea_output_summary">Записывает NMEA логи в Android Studio</string>
+    <string name="pref_nmea_timestamp_output_title">NMEA время</string>
+    <string name="pref_nmea_timestamp_output_summary">Включать временные отметки NMEA в вывод</string>
+    <string name="pref_measurement_output_title">Запись замеров</string>
+    <string name="pref_as_measurement_output_summary">Записывает измерения ССН в Android Studio (Android
+ 7.0 и выше)
+</string>
+    <string name="pref_navigation_message_output_title">Навигационные сообщения</string>
+    <string name="pref_as_navigation_message_output_summary">Записывает навигационные сообщения ССН в Android
+ Studio (Android 7.0 и выше)
+</string>
+
+    <!-- File Output -->
+    <string name="pref_file_output_category_title">Вывод в файл</string>
+    <string name="pref_file_nmea_output_summary">Записывает NMEA заключения в файл</string>
+    <string name="pref_file_measurement_output_summary">Записывает измерения ССН в файл (Android
+ 7.0 и выше)
+</string>
+    <string name="pref_file_navigation_message_output_summary">Записывает навигационные сообщения ССН в файл (Android 7.0 и выше)
+</string>
+    <string name="pref_file_location_output_title">Местоположение</string>
+    <string name="pref_file_location_output_summary">Записывает подробности фиксации местоположения в файл</string>
+    <string name="pref_file_antenna_output_title">Информация об антенне</string>
+    <string name="pref_file_antenna_output_summary">Внести в лог информацию об антенне GNSS. Доступно только на поддерживаемых устройствах (Android 11 и выше).</string>
+
+    <string name="logging_to_new_file">Журналирование в новый файл: %1$s</string>
+    <string name="unable_to_close_all_file_streams">Не удаётся закрыть все файловые потоки.</string>
+    <string name="could_not_initialize_file">Не удалось инициализировать файл: %1$s</string>
+    <string name="error_writing_file">Проблема с записью в файл </string>
+    <string name="unable_to_open_json_generator">Невозможно открыть генератор JSON</string>
+
+    <string name="pref_about_category_title">О приложении</string>
+    <string name="pref_show_tutorial_title">Показать инструкцию</string>
+    <string name="pref_show_tutorial_summary">Показывать инструкции по пользованию приложением</string>
+
+    <string name="pref_dark_theme_title">Использовать тёмное оформление</string>
+    <string name="pref_dark_theme_summary">Сделать фон тёмным, а текст светлым цветом
+    </string>
+
+    <string name="pref_coordinate_format_title">Формат координат</string>
+    <string name="pref_coordinate_format_summary">Отображать в десятичных градусах, градусах, минутах, секундах или в градусах и десятичных минутах</string>
+    <string name="preferences_coordinate_format_dd">Десятичные градусы</string>
+    <string name="preferences_coordinate_format_dms">Градусы, минуты, десятичные секунды</string>
+    <string name="preferences_coordinate_format_ddm">Градусы, десятичные минуты</string>
+
+    <string name="preferences_preferred_distance_units_title">Измерение протяжённости</string>
+    <string name="preferences_preferred_distance_units_option_meters">Метры</string>
+    <string name="preferences_preferred_distance_units_option_feet">Футы</string>
+
+    <string name="preferences_preferred_speed_units_title">Измерение скорости</string>
+    <string name="preferences_preferred_speed_units_option_meters_per_second">Метров в секунду</string>
+    <string name="preferences_preferred_speed_units_option_kilometers_per_hour">Километров в час</string>
+    <string name="preferences_preferred_speed_units_option_miles_per_hour">Миль в час</string>
+
+    <string name="pref_language_title">Язык</string>
+    <string name="pref_language_summary">Устанавливает язык приложения вручную</string>
+    <string name="pref_language_dialog_title">Выберите язык</string>
+
+    <!-- Help -->
+    <string name="title_help">Помощь</string>
+
+    </resources>
